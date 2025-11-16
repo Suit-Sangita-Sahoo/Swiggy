@@ -1,0 +1,93 @@
+.card-container {
+  display: grid;
+  grid-auto-flow: column;     
+  
+  gap: 20px;
+
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  overflow-x: auto;          
+  overflow-y: hidden;         
+  scrollbar-width:none;  
+  cursor: pointer; 
+}
+
+.card {
+  width: 420px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  background: aqua;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+}
+
+.restaurant-card {
+  position: relative;
+  width: 350px;   /* adjust as per your layout */
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+
+/* image fills card */
+.restaurant-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+/* overlay name on image */
+.restaurant-card h3 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  margin-top: 180px;
+  padding: 6px 12px;
+  
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1.2rem;
+}
+
+/* details section */
+#cartdata {
+  padding: 12px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* offers section */
+#offer {
+  padding: 12px;
+  background: #f9f9f9;
+  font-size: 0.85rem;
+  color: #444;
+  border-top: 1px solid #eee;
+}
+
+#headdata {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+   background-color: rgb(100, 185, 154);
+   width: 500px;
+   border-radius: 4px;
+   height: 40px;
+
+}
+
+#offer1 {
+  font-weight: bold;
+  color: #e53935;
+}
+#headdata img {
+  width: 18px;   
+  height: auto;  
+}
+

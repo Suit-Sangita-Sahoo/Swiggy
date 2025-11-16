@@ -1,0 +1,23 @@
+#parent{
+     display: grid;
+  grid-auto-flow: column;     
+  /* grid-template-rows: repeat(2, 1fr);  */
+  gap: 20px;
+
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  cursor: pointer;
+  
+  border-radius: 12px;
+  
+
+  overflow-x: auto;          
+  scrollbar-width: thin; 
+  scrollbar-color: white;
+  scrollbar-width: none;
+}
+#parent>src{
+    width: 140px;
+    height: 100px;
+}

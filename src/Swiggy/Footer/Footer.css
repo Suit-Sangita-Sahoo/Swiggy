@@ -1,0 +1,32 @@
+#footer-container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: flex-start;
+  padding: 40px;
+  background-color: rgba(245, 222, 179, 0.899); 
+}
+
+.Footerdata {
+  width: 200px;  
+}
+
+.Footerdata h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.Footerdata ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Footerdata ul li {
+  margin: 6px 0;
+  color: #555;
+  cursor: pointer;
+}
+
+.Footerdata ul li:hover {
+  color: #fc8019; 
+}

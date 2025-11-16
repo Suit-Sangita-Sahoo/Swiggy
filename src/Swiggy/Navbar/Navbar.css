@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+#mainlogo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  padding: 20px 50px;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 400px;
+  align-items: center;
+  z-index: 10;
+  transition: background 0.3s ease, color 0.3s ease;
+  background-color: orangered;
+  display: flex;
+  
+}
+
+/* Transparent style (when type="transparent") */
+#navbar.transparent {
+  /* background: rgba(0, 0, 0, 0.132); */
+  color: white;
+}
+
+/* Solid style (when type="solid") */
+#navbar.solid {
+  background: black;
+  color: white;
+ 
+}
+.navbar.transparent {
+  background: transparent;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+#list ul {
+  display: flex;
+  list-style: none;
+  gap: 55px;
+}
+
+#list li {
+  cursor: pointer;
+  color: white;
+  font-weight: 200;
+}
+
+#shop {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+#navlist1{
+    border: 2px solid white;
+   padding: 17px;
+    border-radius: 10px;
+}
+#swiggytext{
+    color: white;
+    font-weight: 600;
+    font-size:50px;
+}
+
+#navlist2{
+  border: 2px solid;
+  padding: 6px;
+  background-color: black;
+  border-radius: 5px;
+}
